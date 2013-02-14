@@ -2,6 +2,7 @@
 clear all; close all; clc;
  
 ds = load('ds_reflectance.csv');
+foo
 N = size(ds, 1);
 r = randperm(N);
  
